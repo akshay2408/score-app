@@ -27,24 +27,24 @@ export default function Home() {
                 <div className="bg-secondary d-flex align-items-center pr-5">
                   <img src="be7765eabc7e61d8abc9.png" width="40" />
                   <h4 className="mb-0 ml-3 mr-5 text-uppercase">
-                    <span>{scores.home_team.name}</span>
+                    <span>{scores?.home_team.name}</span>
                   </h4>
                 </div>
                 <span>
                   <h3 className="font-weight-bold">
-                    {scores.home_team.score} / {scores.away_team.score}
+                    {scores?.home_team.score} / {scores?.away_team.score}
                   </h3>
                 </span>
                 <div className="bg-secondary d-flex align-items-center pr-5">
                   <img src="99aece48307946e682e7.png" width="40" />
                   <h4 className="mb-0 ml-3 mr-5 text-uppercase">
-                    <span>{scores.away_team.name}</span>
+                    <span>{scores?.away_team.name}</span>
                   </h4>
                 </div>
               </div>
               <div className="border bg-black py-2 px-3 float-end mr-5 mt-3">
                 <h4 className="mb-0 text-uppercase">
-                  <span>{scores.home_team.name}</span>
+                  <span>{scores?.home_team.name}</span>
                 </h4>
               </div>
             </div>
