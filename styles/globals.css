@@ -1,0 +1,54 @@
+body,
+html {
+  height: 100%;
+}
+body {
+  background: url("/ab12a1d6a37b5f336047.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#__next {
+  height: 100%;
+  position: relative;
+}
+.main-box:after {
+  background: url("/overlay_img.png") no-repeat;
+  width: 155px;
+  height: 150px;
+  top: -52px;
+  left: -16px;
+  content: "";
+  position: absolute;
+}
+.logo-img {
+  width: 225px;
+  transform: skew(-20deg);
+  margin: 0 80px;
+}
+.bg-orange {
+  background: hsl(12deg 82% 55%);
+}
+
+.right-side {
+  top: -15px;
+  left: 24%;
+  width: 82%;
+}
+.right-side .bg-orange {
+  transform: skew(-20deg);
+}
+.bg-black {
+  background: #000;
+  transform: skew(-20deg);
+}
+.bg-orange span,
+.bg-black span,
+h5 span {
+  display: inline-block;
+  transform: skew(20deg);
+}
+.right-side .bg-secondary {
+  background: hsl(218deg 10% 15%) !important;
+}
